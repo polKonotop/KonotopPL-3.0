@@ -1,0 +1,96 @@
+body {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,eeeeee+100;Grey+Flat */
+    background: rgb(238,238,238); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+}
+
+#navbar {
+    background: rgba(202,36,7,1);
+    background: -moz-linear-gradient(-45deg, rgba(202,36,7,1) 5%, rgba(177,26,6,1) 18%, rgba(170,31,19,1) 43%, rgba(216,45,19,1) 54%, rgba(173,30,11,1) 69%, rgba(173,30,11,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(5%, rgba(202,36,7,1)), color-stop(18%, rgba(177,26,6,1)), color-stop(43%, rgba(170,31,19,1)), color-stop(54%, rgba(216,45,19,1)), color-stop(69%, rgba(173,30,11,1)), color-stop(100%, rgba(173,30,11,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(202,36,7,1) 5%, rgba(177,26,6,1) 18%, rgba(170,31,19,1) 43%, rgba(216,45,19,1) 54%, rgba(173,30,11,1) 69%, rgba(173,30,11,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(202,36,7,1) 5%, rgba(177,26,6,1) 18%, rgba(170,31,19,1) 43%, rgba(216,45,19,1) 54%, rgba(173,30,11,1) 69%, rgba(173,30,11,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(202,36,7,1) 5%, rgba(177,26,6,1) 18%, rgba(170,31,19,1) 43%, rgba(216,45,19,1) 54%, rgba(173,30,11,1) 69%, rgba(173,30,11,1) 100%);
+    background: linear-gradient(135deg, rgba(202,36,7,1) 5%, rgba(177,26,6,1) 18%, rgba(170,31,19,1) 43%, rgb(216, 21, 28) 54%, rgba(173,30,11,1) 69%, rgba(173,30,11,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ca2407', endColorstr='#ad1e0b', GradientType=1 );
+}
+
+#navbar a {
+    color: white;
+}
+
+#start {
+    background-image: url("fon.jpg");
+    background-size: 100% auto;
+    height: 30vh;
+    padding-top: 20px;
+    margin-top: -20px;
+}
+
+#start h1 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#about {
+    padding-top: 3px;
+    height: 450px;
+    outline: 1px auto #570707;
+}
+
+#about h2 {
+    margin-bottom: 10px;
+    margin-left: 97px;
+    font-size: 35px;
+}
+
+#about img {
+    border-radius: 45px;
+    margin-bottom: 20px;
+}
+
+#galery {
+    height: 1285px;
+    outline: 1px auto #570707;
+    margin-top: 1px;
+    padding-top: 1px;
+}
+
+#galery h2 {
+    margin-left: 28%;
+    font-size: 35px;
+}
+
+.galery-pic {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+#footer {
+    margin-top: 0px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    outline: 1px auto #570707;
+    height: 160px;
+}
+
+#num_phone, #mail {
+    margin-bottom: 15px;
+
+
+
+
+
+
+
+
+
+
