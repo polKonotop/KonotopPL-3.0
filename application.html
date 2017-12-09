@@ -2,9 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Зворотній звязок</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="app-style.css">
 </head>
 <body>
 
+<div id="heder">
+
+    <nav>
+
+        <div id="navbar" class="navbar navbar-default">
+
+            <div class="navbar-heder"><a class="navbar-brand" href="#">KonotopPL</a></div>
+
+            <div class="navbar-heder">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="application.html">Звязок</a></li>
+                    <li><a href="#">ВУЗи</a></li>
+                    <li><a href="#">Про нас</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div id="app">
+
+<form class="col-xs-12" method="post">
+
+    <div id="mail-b">
+    <label class="col-xs-12" for="mail">Ваша почта:</label>
+    <input class="col-xs-12" placeholder="Email" id="mail" type="email">
+    </div>
+
+    <div id="name-b">
+    <label class="col-xs-12" for="name">Ваше імя:</label>
+    <input class="col-xs-12" placeholder="ПІБ" id="name" type="text">
+    </div>
+
+    <div id="text-app-b">
+    <label class="col-xs-12" for="button">Текст заявки:</label>
+    <textarea class="col-xs-12" placeholder="Введіть текст заяви" type="text" id="text-app" size="40" maxlength="500" name="text" required></textarea>
+    </div>
+
+    <button id="button" type="submit">Відправити</button>
+
+
+</div>
+</form>
+
+</div>
+
+
+
+
+
+
+
+
+
+<script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </body>
 </html>
